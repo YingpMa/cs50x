@@ -1,0 +1,3 @@
+Listener's audio aura is characterized by energy, danceability and valence.
+However, this method might not fully represent the listener’s preferences as it does not account for the frequency of plays or emotional context of individual songs.
+A better method could involve weighting songs by play count or clustering songs based on mood categories to provide a more accurate representation.

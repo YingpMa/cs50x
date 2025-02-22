@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Sort1 is much faster on sorted data (e.g., 0.059s for sorted10000) compared to random or reversed data, showing it benefits from early termination. The performance on random and reversed inputs (e.g., 9.580s and 5.442s for 50000) matches the O(n²) behavior of Bubble Sort.
+
+sort2 uses: Merge Sort
+
+How do you know?: Sort2 handles all input types consistently, with the fastest times overall (e.g., 0.512s for random50000, 0.048s for random10000). This efficiency and consistent performance align with the O(n log n) complexity of Merge Sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: Sort3 shows similar times across all input types (e.g., 3.707s, 4.471s, and 6.288s for 50000), indicating input order doesn't affect it. This matches Selection Sort's O(n²) behavior, where it always processes the entire list regardless of order.
